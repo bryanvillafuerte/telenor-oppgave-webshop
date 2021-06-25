@@ -11,9 +11,6 @@
         </div>
         <div class="col-md-6"></div>
       </div>
-      <div class="row product-categories">
-        <CategoryTabs />
-      </div>
       <div class="row product-grid">
         <ProductGrid />
       </div>
