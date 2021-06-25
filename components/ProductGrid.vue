@@ -130,6 +130,7 @@ form {
 
 .form-control {
   width: 200px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 576px) {

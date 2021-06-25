@@ -7,7 +7,7 @@
       <h6 class="card-subtitle mb-2 text-primary">$ {{ product.price }}</h6>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-dark">Add to cart</a>
+      <a href="#" class="btn btn-dark" @click="addToCart()">Add to cart</a>
     </div>
   </div>
 </template>
@@ -20,6 +20,15 @@ export default {
       default: () => {},
     },
   },
+  
+  methods: {
+    addToCart() {
+      this.state.dispatch("addProductToCart", {
+        product: this.product,
+        quantity: 1,
+      })
+    }
+  }
 }
 </script>
 

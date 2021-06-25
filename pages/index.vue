@@ -6,7 +6,10 @@
         <div class="col-md-6">
           <h1 class="heading">Welcome to the WebShop</h1>
           <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare turpis sed mi iaculis congue. Sed vel vestibulum metus. Sed auctor non odio id ultricies. Pellentesque lobortis consequat eros vitae finibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            ornare turpis sed mi iaculis congue. Sed vel vestibulum metus. Sed
+            auctor non odio id ultricies. Pellentesque lobortis consequat eros
+            vitae finibus.
           </p>
         </div>
         <div class="col-md-6"></div>
@@ -29,5 +32,6 @@
 
 .product-grid {
   padding-bottom: 50px;
+  display: grid;
 }
 </style>
